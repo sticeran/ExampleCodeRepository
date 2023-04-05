@@ -6,7 +6,6 @@ public class B {
 		System.out.println(a + b);
 	}
 
-	public static void sub(int a, int b) {
-		System.out.println(a - b);
-	}
+	//该bug经查与sub函数无关
+	public static void sub(int a, int b) {System.out.println(a - b);}
 }
